@@ -296,7 +296,7 @@ span{
     transition: 0.3s ease;
 }
 .about-box:hover{
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     color: var(--main-color);
     transform: scale(1.03);
     border: 1px solid var(--main-color);
@@ -348,7 +348,7 @@ span{
 .skills .container{
     background: var(--second-bg-color);
     color: var(--text-color);
-    border-radius: 1rem;
+    border-radius: 5rem;
     padding: 5rem;
     width: 90%;
     margin: auto;
@@ -369,15 +369,17 @@ span{
     padding: 1.5rem;
     width: 100%;
     min-height: 150px;
-    border-radius: 1rem;
-    background: var(--main-color);
+    border-radius: 3.5rem;
+    background: var(--second-bg-color);
     box-shadow: 0 4px 10px var(--second-bg-color);
     transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
 
 }
 .skills .container .bar:hover{
     transform: scale(1.05);
     box-shadow: 0 0 20px var(--second-bg-color);
+    background: var(--bg-color);
 }
 .skills .container .bar img {
     width: 100%;
@@ -450,7 +452,7 @@ span{
 .project .container{
     background: var(--second-bg-color);
     color: var(--text-color);
-    border-radius: 1rem;
+    border-radius: 5rem;
     padding: 5rem;
     width: 90%;
     margin: auto;
@@ -471,7 +473,7 @@ span{
     padding: 1.5rem;
     width: 100%;
     min-height: 150px;
-    border-radius: 1rem;
+    border-radius: 3.5rem;
     background: var(--bg-color);
     box-shadow: 0 4px 10px var(--second-bg-color);
     transition: all 0.3s ease;
@@ -540,10 +542,11 @@ span{
     padding: 1.5rem;
     width: 100%;
     min-height: 30rem;
-    border-radius: 1rem;
+    border-radius: 3.5rem;
     background: var(--bg-color);
     box-shadow: 0 4px 10px var(--second-bg-color);
     transition: all 0.3s ease;
+    border: 0.5px solid var(--main-color);
 }
 .education .container .row .bar:hover{
     transform: scale(1.05);
